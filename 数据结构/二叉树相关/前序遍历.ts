@@ -53,3 +53,17 @@ function preTraversal(root) {
     preTraversal(root.left);
     preTraversal(root.right);
 }
+
+//迭代做法
+function preTraversal2(root) {
+    if (!root) {
+        return;
+    }
+    let stack = [];
+    while (root) {
+        console.log(root);
+        stack.push(root);
+        root = root.left;
+    }
+
+}
