@@ -3,6 +3,15 @@ function middleTraversal(node) {
     if (!node) {
         return;
     }
+    middleTraversal(node.left);
+    console.log(node);
+    middleTraversal(node.right);
+}
+
+function middleTraversal2(node) {
+    if (!node) {
+        return;
+    }
 
     let stack = []
     while (node || stack.length) {
