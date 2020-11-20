@@ -1,14 +1,14 @@
 
-function middleTraversal(node) {
+function postTraversal(node) {
     if (!node) {
         return;
     }
-    middleTraversal(node.left);
+    postTraversal(node.left);
+    postTraversal(node.right);
     console.log(node);
-    middleTraversal(node.right);
 }
 
-function middleTraversal2(node) {
+function postTraversal2(node) {
     if (!node) {
         return;
     }
@@ -22,11 +22,8 @@ function middleTraversal2(node) {
         //一直到左边节点没有，回到根节点,这时候根节点肯定有值
         node = stack.pop();
 
-        //这时候相当于输出中节点，看看右节点存不存在
-        console.log(node);
+        //这时候要继续找右边的节点
         node = node.right;
-
-        //重复前一轮操作看看
     }
 
 
