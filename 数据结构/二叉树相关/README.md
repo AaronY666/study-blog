@@ -18,4 +18,5 @@
 - [后序遍历](./后序遍历.md)
 
 #### 练习题目
-
+- [144.二叉树的前序遍历☆](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/)
+- [94.二叉树的中序遍历☆](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)
