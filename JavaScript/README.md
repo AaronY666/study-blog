@@ -9,3 +9,4 @@
 
 - [关于原型的知识点你都吃透了吗？（超详细！）](https://github.com/AaronY666/study-blog/blob/main/JavaScript/%E5%85%B3%E4%BA%8E%E5%8E%9F%E5%9E%8B%E7%9A%84%E7%9F%A5%E8%AF%86%E7%82%B9%E4%BD%A0%E9%83%BD%E5%90%83%E9%80%8F%E4%BA%86%E5%90%97%EF%BC%9F%EF%BC%88%E8%B6%85%E8%AF%A6%E7%BB%86%EF%BC%81%EF%BC%89.md)
 
+- [来一份this知识点详细总结](./来一份this知识点详细总结.md)
